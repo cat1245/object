@@ -210,7 +210,26 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="1051">
-                                    <field name="TEXT">My the peace be with you</field>
+                                    <field name="TEXT">May the peace be</field>
+                                    <next>
+                                      <block type="oled_setcursor" id="1052" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="1053">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="1054">
+                                            <field name="NUM">40</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="oled_drawtext" id="1055">
+                                            <field name="TEXT">with you</field>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
