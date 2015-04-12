@@ -170,43 +170,5 @@
         </next>
       </block>
     </statement>
-    <next>
-      <block type="oled_setcursor" id="871" inline="true">
-        <value name="STARTX">
-          <block type="math_number" id="923">
-            <field name="NUM">0</field>
-          </block>
-        </value>
-        <value name="STARTY">
-          <block type="math_number" id="930">
-            <field name="NUM">10</field>
-          </block>
-        </value>
-        <next>
-          <block type="oled_drawtext" id="843">
-            <field name="TEXT">must get water for</field>
-            <next>
-              <block type="oled_setcursor" id="931" inline="true">
-                <value name="STARTX">
-                  <block type="math_number" id="932">
-                    <field name="NUM">0</field>
-                  </block>
-                </value>
-                <value name="STARTY">
-                  <block type="math_number" id="933">
-                    <field name="NUM">20</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="oled_drawtext" id="934">
-                    <field name="TEXT">Daisy and Mila</field>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
   </block>
 </xml>
