@@ -180,7 +180,7 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="1046">
-                    <field name="TEXT">Must get Water</field>
+                    <field name="TEXT">Must get water</field>
                     <next>
                       <block type="oled_setcursor" id="1029" inline="true">
                         <value name="STARTX">
