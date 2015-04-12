@@ -210,7 +210,7 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="1051">
-                                    <field name="TEXT">May the peace be</field>
+                                    <field name="TEXT">May the peace</field>
                                     <next>
                                       <block type="oled_setcursor" id="1052" inline="true">
                                         <value name="STARTX">
@@ -225,7 +225,7 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="1055">
-                                            <field name="TEXT">with you</field>
+                                            <field name="TEXT">be with you</field>
                                           </block>
                                         </next>
                                       </block>
