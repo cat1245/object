@@ -226,6 +226,9 @@
                                         <next>
                                           <block type="oled_drawtext" id="1055">
                                             <field name="TEXT">be with you</field>
+                                            <next>
+                                              <block type="oled_cleardisplay" id="1138"></block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
