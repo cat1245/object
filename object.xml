@@ -210,7 +210,7 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="1051">
-                                    <field name="TEXT">peace be with you</field>
+                                    <field name="TEXT">My the peace be with you</field>
                                   </block>
                                 </next>
                               </block>
