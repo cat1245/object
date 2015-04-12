@@ -166,6 +166,9 @@
                 <field name="NUM">200</field>
               </block>
             </value>
+            <next>
+              <block type="oled_cleardisplay" id="1002"></block>
+            </next>
           </block>
         </next>
       </block>
