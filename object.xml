@@ -170,5 +170,10 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="oled_drawtext" id="843">
+        <field name="TEXT">must get water for Daisy and Mila</field>
+      </block>
+    </next>
   </block>
 </xml>
